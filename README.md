@@ -7,7 +7,7 @@ A terminal-based version of the classic [Lunar Lander](http://moonlander.seb.ly/
 As there are multiple landers being simulated at once, I utilized my own implementation of a priority queue to keep track of the properties of the different landers. This also allowed me to overload the "<" operator and utilize it to maintain the minheap structure of the priority queue.
 
 ## Usage
-By downloading main.cpp, priority.cpp, priority.h, lander.cpp, lander.h, LanderInput.txt, and Simulation.txt, one could simply compile using GCC and the command g++ main.cpp followed by ./a.out < Simulation.txt. This will run the simulation, and, if desired, one could change the values in Simulation.txt and see the response of the program (the input values must remain between 0 and 1).
+By downloading main.cpp, priority.cpp, priority.h, lander.cpp, lander.h, LanderInput.txt, and Simulation.txt, one could simply compile using GCC and the command "g++ main.cpp lander.cpp" followed by "./a.out < Simulation.txt". This will run the simulation, and, if desired, one could change the values in Simulation.txt and see the response of the program (the input values must remain between 0 and 1).
 
 The Simulation.txt file takes the format of:
 LanderName flow_rate
